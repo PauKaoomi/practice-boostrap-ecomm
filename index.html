@@ -12,78 +12,96 @@
 </head>
 
 <body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">E-comm</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Quienes Somos?</a>
+              </li>
+            </ul>
+              <button class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit"><i class="bi bi-cart"></i>0</button>
+          </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <div class="container">
-        
         <div class="row">
-            <div class="d-flex justify-content-center">
-                <h3 class="text-secondary">¿Quieres Vender?</h3>
+            <div class="p-2">
+                <h1>Productos Destacados</h1>
             </div>
-            <div class="d-flex justify-content-center">
-                <h1>Así funciona el proceso</h1>
-            </div>
-            
-            <div class="col-5 d-none d-md-block ">
-                <img class="img-cel img-fluid"
-                    src="https://cdn.discordapp.com/attachments/804805711854043148/1172339166579794041/image_24.png?ex=655ff4ee&is=654d7fee&hm=81107e195af0d37863af498a13f834e2effd649b2dcd26f44bd8621e805de749&"
-                    alt="">
-            </div>
-            <div class="col-7">
-                    <div class="card" style="width: 40rem;">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <div class="col-1">
-                                    <img class="" src="https://cdn.discordapp.com/attachments/804805711854043148/1172340380885323816/image.png?ex=655ff60f&is=654d810f&hm=a99e0f7a78ffdf65276e10854d409bf7a7241bbfe13c82f286b4ceb1f14bea09&">
-                                </div>
-                                <div class="col-11">
-                                    <h5 class="ps-4"> 1. Nos cuentas de tu inmueble y solicitas la oferta </h5>
-                                    <p class="m-lg-1 ps-4 small">Ingresas tu dirección, características del inmueble como mt², años de antigüedad, piso, etc. y tus datos de contacto para que te podamos hacer la oferta.</p>
-                                    <button class="btn text-primary ps-4"></i> Ver Menos</button>
-                                </div>
-                            </div>
+            <div class="col-3">
+                <div class="card shadow" style="width: 20rem;">
+                    <h5 class="card-header">Camiseta Corta</h5>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <img class="img-banner" src="https://cdn.discordapp.com/attachments/756991315811762367/1172697638374744145/Purpdrank_2022_E-girl_Style_Patchwork_Black_T-shirts_Gothic_Open_Shoulder_Sleeve_Y2k_Crop_Tops_Ruffles_Hem_Hip_Hop_Techwear_Women_Tee_-_black___M.jpg?ex=656142c8&is=654ecdc8&hm=476608f48feb13a70bc6bcb0bdc2d84171b6694119345e6ff4ce109170b7e010&" alt="">
+                            <p class="m-lg-1 ps-4 d-flex justify-content-center fw-bold">COP 40.000</p>
+                            <button class="btn btn-success ps-4"><i class="bi bi-cart"></i> Agregar Al Carrito</button>
                         </div>
                     </div>
-                    <div class="card mt-2" style="width: 40rem;">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <div class="col-1">
-                                    <img class="" src="https://cdn.discordapp.com/attachments/804805711854043148/1172344599843442800/image.png?ex=655ff9fd&is=654d84fd&hm=0b5cf2e1b208f0f3cc65c187508c0a6aeabce423d25a8cfbae20ce5ca5683796&">
-                                </div>
-                                <div class="col-11">
-                                    <h5 class="ps-4"> 2. Recibes la oferta inicial y agendamos la visita </h5>
-                                    <button class="btn text-primary ps-4"></i> Ver Detalles</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mt-2" style="width: 40rem;">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <div class="col-1">
-                                    <img class="" src="https://media.discordapp.net/attachments/804805711854043148/1172345123883995317/image.png?ex=655ffa7a&is=654d857a&hm=471b7c8e9548a9dd435cf4e3363451a341b43cefbcbc25093bf5c8e6d26a1d98&=&width=58&height=57">
-                                </div>
-                                <div class="col-11">
-                                    <h5 class="ps-4"> 3. Firmamos acuerdos y recibes anticipo </h5>
-                                    <button class="btn text-primary ps-4"></i> Ver Detalles</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mt-2" style="width: 40rem;">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <div class="col-1">
-                                    <img class="" src="https://media.discordapp.net/attachments/804805711854043148/1172345867550851132/image.png?ex=655ffb2b&is=654d862b&hm=33cbad5f26edfaebfe3b653f59f35387ed5dddcdee8e7c57413a62b97b070364&=&width=61&height=61">
-                                </div>
-                                <div class="col-11">
-                                    <h5 class="ps-4"> 4. Entregas el inmueble y desembolsamos </h5>
-                                    <button class="btn text-primary ps-4"></i> Ver Detalles</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                </div>
             </div>
-
+            <div class="col-3">
+                <div class="card shadow" style="width: 20rem;">
+                    <h5 class="card-header">Pantaloneta Medio Corta</h5>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <img class="img-banner" src="https://cdn.discordapp.com/attachments/756991315811762367/1172705728671256667/Knee_Length_Cargo_Shorts_for_Women_Girls_Gothic_Alt_Scene_Emo_Pants_Harajuku_Y2k_Baggy_Streetwear_Grunge_Hip-hop_Techwear.jpg?ex=65614a51&is=654ed551&hm=01d3590859048f3ae56d1923e6a18e8c75febedd5bc5b5d2f6fab5703ba1689d&" alt="">
+                            <p class="m-lg-1 ps-4 d-flex justify-content-center fw-bold">COP 60.000</p>
+                            <button class="btn btn-success ps-4"><i class="bi bi-cart"></i> Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card shadow" style="width: 20rem;">
+                    <h5 class="card-header">Camisa Leñadora Manga Larga</h5>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <img class="img-banner" src="https://cdn.discordapp.com/attachments/756991315811762367/1172697637871431700/different_fashions.jpg?ex=656142c8&is=654ecdc8&hm=27d7afec1462e7b848fd90706a6cdc3d319f5e569b5aec888010ef0e6b1a47be&" alt="">
+                            <p class="m-lg-1 ps-4 d-flex justify-content-center fw-bold">COP 50.000</p>
+                            <button class="btn btn-success ps-4"><i class="bi bi-cart"></i> Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card shadow" style="width: 20rem;">
+                    <h5 class="card-header">Buso Manga Larga a Rallas</h5>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <img class="img-banner" src="https://cdn.discordapp.com/attachments/756991315811762367/1172705728461557860/Fairy_Shirt_for_Women_Long_Sleeve_Vintage_Print_Crop_Top_Crewneck_Aesthetic_Slim_Blouse_Tee_Grunge_Clothes.jpg?ex=65614a51&is=654ed551&hm=c4aaa461c0554f479c78cab7ede5b79f663ba7699279cd405934a82df8857228&" alt="">
+                            <p class="m-lg-1 ps-4 d-flex justify-content-center fw-bold">COP 65.000</p>
+                            <button class="btn btn-success ps-4"><i class="bi bi-cart"></i> Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
